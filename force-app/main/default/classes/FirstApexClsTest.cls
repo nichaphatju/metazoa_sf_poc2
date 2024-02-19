@@ -7,4 +7,11 @@ public class FirstApexClsTest {
         List<Account> accs = FirstApexCls.getAccount();
         Test.stopTest();
     }
+
+    @isTest
+    static void testGetContact(){
+        Test.startTest();
+        List<Contact> contacts = FirstApexCls.getContact();
+        Test.stopTest();
+    }
 }
